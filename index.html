@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <script defer src="./index.js"></script>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family:serif;
+            background: linear-gradient(to right, rgb(192, 184, 184),rgba(123, 103, 103, 0.616));
+        }
+        #canvas{
+            border:3px solid black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center;margin:10px auto;">Tic Tac Toe ( Vanilla Javascript)</h1>
+    <canvas id="canvas" width="400" height="400"></canvas>
+</body>
+</html>
